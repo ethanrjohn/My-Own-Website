@@ -2,5 +2,33 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url('wallpapersden.com_goku-dragon-ball-4k-art_1400x1050.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(247, 249, 213);
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: #fff200;
+    /* Initial background color */
+    text-align: center;
+    text-decoration: none;
+    /* Remove underline */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.75s ease, transform 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: #ffffff;
+    /* Background color on hover */
+    transform: scale(1.1);
+    /* Slightly enlarge the button on hover */
 }
