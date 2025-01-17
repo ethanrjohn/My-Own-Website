@@ -24,6 +24,7 @@ a {
     /* Rounded corners */
     transition: background-color 0.75s ease, transform 0.3s ease;
     /* Smooth transition for hover effect */
+    
 }
 
 a:hover {
